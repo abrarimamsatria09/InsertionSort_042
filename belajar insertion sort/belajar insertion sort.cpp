@@ -30,7 +30,7 @@ void input() {		//procedure input
 	}
 }
 
-void inserionsort() {							//procedure insertionsort
+void insertionsort() {							//procedure insertionsort
 
 	int temp;									//membuat variable data temporer atau penyimpanan sementara
 	int j;										//membuat variable j sebagai penanda
@@ -70,3 +70,9 @@ void display() {												//procedure display
 	cout << endl;		//ouput baris kosong
 }
 
+int main()
+{
+	input();			//memanggil input
+	insertionsort();	//memanggil insertionsort
+	display();			//memanggil display
+}
